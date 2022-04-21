@@ -3,7 +3,6 @@ class pf_Player extends Phaser.Physics.Matter.Sprite {
         super(world, x, y, texture);
         scene.add.existing(this);
         
-        scene = scene;
         this.inputHandling(scene);
     }
 
